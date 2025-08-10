@@ -1,6 +1,9 @@
 """
 Build backend for gpt-oss that supports two modes:
 
+
+
+
 1) Default (pure wheel for PyPI)
    - Delegates to setuptools.build_meta.
    - Produces a py3-none-any wheel so PyPI accepts it (no linux_x86_64 tag).
